@@ -569,16 +569,31 @@ line-height:1.5
 </div>
 <div class="row">
     <div class="col">
-        <a target="_blank" class="btn btn-danger main-download-btn button1-download-btn IDM" onclick="downloadFile('IDM')">Internet Download Manager (IDM)</a>
+<a target="_blank" class="btn btn-danger main-download-btn button1-download-btn IDM" href="https://idm.cybar.xyz/asset/IDM.zip" title="Download Internet Download Manager (IDM)">
+    Internet Download Manager (IDM)
+</a>
     </div>
 </div>
 </div>
 <!-- End of download area -->
 
-
-<!-- End of Main Features Section -->
-
-
+<!-- SEO -->
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Internet Download Manager (IDM)",
+  "description": "Download Internet Download Manager (IDM), Pre Cracked Activated",
+  "applicationCategory": "Download Manager",
+  "operatingSystem": "Windows",
+  "downloadUrl": "https://idm.cybar.xyz/asset/IDM.zip",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gamepagge"
+  }
+}
+</script>
+<!-- SEO -->
 
             <!-- Main Features Section -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -599,15 +614,6 @@ line-height:1.5
         });
 
 
-function downloadFile(filename) {
-    if (filename === 'IDM') {
-        window.location.href = 'https://cdn.jsdelivr.net/gh/Gamepagge/IDM@main/asset/IDM.zip';
-    } else {
-        console.error('Invalid filename');
-    }
-}
-
-
         function toggleAndScrollToDownloadArea() {
             toggleDownloadArea();
             scrollToDownloadArea();
@@ -622,6 +628,7 @@ function downloadFile(filename) {
             var downloadArea = document.getElementById('download-area');
             downloadArea.scrollIntoView({ behavior: 'smooth' });
         }
+
     </script>
 </body>
 </html>
